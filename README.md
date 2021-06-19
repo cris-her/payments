@@ -6,6 +6,8 @@ https://www.paypal.com/mx/webapps/mpp/merchant-fees
 
 https://clip.mx/costos-y-comisiones/
 
+https://www.mercadopago.com.mx/ayuda/16229
+
 https://github.com/cris-her/platzi-store  
 
 https://stripe.com/docs/testing  
