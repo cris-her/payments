@@ -24,4 +24,6 @@ https://github.com/TransbankDevelopers/transbank-sdk-dotnet-onepay-example
 
 https://github.com/TransbankDevelopers/transbank-sdk-dotnet-patpass-example  
 
+https://docs.microsoft.com/en-us/dotnet/standard/net-standard#target-net-standard  
+
 Integración de paypal en un comercio electrónico: crear un botón inteligente, procesar una transacción, capturar el dinero, transferir el dinero, disputas y produccion.
