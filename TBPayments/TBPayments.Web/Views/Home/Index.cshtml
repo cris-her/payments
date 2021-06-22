@@ -1,0 +1,14 @@
+﻿<head>
+    <link rel="stylesheet" href="https:maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap/min.css">
+</head>
+<body>
+    <div class="container jumbotron w-25 bg-light">
+        <p>Valor: @ViewBag.Amount</p>
+        <p>Orden de Compra: @ViewBag.BuyOrder</p>
+        <form action="@ViewBag.FormAction" method="post">
+            <input type="hidden" name="token_ws" value="@ViewBag.TokenWs"/>
+            <button type="submit" class="btn btn-primary">Pagar</button>
+        </form>
+    </div>
+</body>
+
