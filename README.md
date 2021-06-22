@@ -26,4 +26,11 @@ https://github.com/TransbankDevelopers/transbank-sdk-dotnet-patpass-example
 
 https://docs.microsoft.com/en-us/dotnet/standard/net-standard#target-net-standard  
 
-Integración de paypal en un comercio electrónico: crear un botón inteligente, procesar una transacción, capturar el dinero, transferir el dinero, disputas y produccion.
+Integración de paypal en un comercio electrónico: crear un botón inteligente, procesar una transacción, capturar el dinero, transferir el dinero, disputas y produccion.  
+
+// using System.Net;  
+ServicePointManager.Expect100Continue = true;  
+ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;  
+// Use SecurityProtocolType.Ssl3 if needed for compatibility reasons  
+// If you don’t have .NET 4.5 then use  
+ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;  
